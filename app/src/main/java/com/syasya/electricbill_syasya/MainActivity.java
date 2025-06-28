@@ -4,7 +4,6 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -68,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
 
         btnViewList.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, BillListActivity.class);
+            startActivity(intent);
+        });
+
+        Button btnAbout = findViewById(R.id.btnAbout);
+        btnAbout.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
             startActivity(intent);
         });
     }
