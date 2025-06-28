@@ -15,13 +15,13 @@ public class AboutActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.aboutText);
         textView.setText("Name: Syasya Nabilah Binti Syalihuddin\n" +
-                "ID: YOUR_STUDENT_ID\n" +
-                "Course: Mobile Technology\n" +
+                "ID: 2023697608\n" +
+                "Course: ICT 602 Mobile Technology And Development\n" +
                 "© 2025\n" +
-                "GitHub: https://github.com/yourusername/yourapp\n");
+                "GitHub: https://https://github.com/SyasyaNab/ElectricBill_Syasya\n");
 
         textView.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/yourusername/yourapp"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SyasyaNab/ElectricBill_Syasya"));
             startActivity(browserIntent);
         });
     }
