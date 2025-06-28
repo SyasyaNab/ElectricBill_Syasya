@@ -28,16 +28,6 @@ Example for 250 kWh with 5% rebate:
 
 ---
 
-## 🎨 Screenshots
-
-| Input | Output | Bill List | Detail | About |
-|-------|--------|-----------|--------|-------|
-| ![input](screenshots/input.png) | ![output](screenshots/output.png) | ![list](screenshots/list.png) | ![detail](screenshots/detail.png) | ![about](screenshots/about.png) |
-
-> *(Add these screenshots to your `/screenshots` folder and commit them)*
-
----
-
 ## 🛠 Technologies Used
 
 - Android Studio (Java)
